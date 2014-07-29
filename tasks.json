@@ -1,0 +1,13 @@
+{
+  type : 'com.google.eclipse.mechanic.UriTaskProviderModel',
+  metadata : {
+    name: 'Workspace Mechanic Tasks',
+    description: 'Sample tasks for the Workspace Mechanic of Eclipse',
+    contact: ''
+  },  
+  tasks: [
+    'luna_additional.epf',
+    'luna_formatting.epf',
+    'luna_general.epf'
+  ]
+}
