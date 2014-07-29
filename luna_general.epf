@@ -1,0 +1,40 @@
+# @title Eclipse LUNA general (mandatory)
+# @description General settings for Eclipse LUNA (mandatory)
+# @task_type LASTMOD
+#
+# Version: 1.0
+# Created on: Thu Jul 24 14:30:00 CET 2014
+#
+file_export_version=3.0
+
+# General - Workspace
+/instance/org.eclipse.core.resources/encoding=UTF-8
+/instance/org.eclipse.core.runtime/line.separator=\n
+
+# Java - Compiler
+# -- Errors/Warnings
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unnecessaryTypeCheck=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.potentialNullReference=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.emptyStatement=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.redundantNullCheck=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.possibleAccidentalBooleanAssignment=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.explicitlyClosedAutoCloseable=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.missingDeprecatedAnnotation=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.missingOverrideAnnotation=warning
+
+# -- Javadoc
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.invalidJavadocTagsDeprecatedRef=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.invalidJavadocTagsNotVisibleRef=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.invalidJavadocTags=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.invalidJavadoc=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.invalidJavadocTagsVisibility=private
+
+# BDDL and bonaparte
+/instance/de.jpaw.persistence.dsl.BDDL/outlet.DEFAULT_OUTPUT.directory=./src/generated
+/instance/de.jpaw.bonaparte.dsl.BonScript/outlet.DEFAULT_OUTPUT.directory=./src/generated
+
+# Xtend - mark occurrences
+/instance/org.eclipse.xtend.core.Xtend/markOccurrences=true
+
+# Xtend - Errors/Warnings
+/instance/org.eclipse.xtend.core.Xtend/org.eclipse.xtext.xbase.validation.IssueCodes.equals_with_null=warning

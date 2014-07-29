@@ -1,0 +1,29 @@
+# @title Eclipse LUNA additional settings (recommended)
+# @description Additional settings for Eclipse LUNA (recommended)
+# @task_type LASTMOD
+#
+# Version: 1.0
+# Created on: Thu Jul 24 14:30:00 CET 2014
+#
+file_export_version=3.0
+
+# Java - Code Style - Organize imports
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.staticondemandthreshold=5
+/instance/org.eclipse.jdt.ui/sp_cleanup.organize_imports=true
+
+# Xtend - Compiler
+/instance/org.eclipse.xtend.core.Xtend/outlet.DEFAULT_OUTPUT.cleanDirectory=true
+
+# m2e
+/instance/org.eclipse.m2e.wtp/org.eclipse.m2e.wtp.war.archiverFilesInBuilDir=false
+/instance/org.eclipse.m2e.wtp/org.eclipse.m2e.wtp.ear.applicationXmlInBuilDir=false
+/instance/org.eclipse.m2e.wtp/org.eclipse.m2e.wtp.jaxrs.enabler.enabled=false
+/instance/org.eclipse.m2e.wtp/org.eclipse.m2e.wtp.jsf.enabler.enabled=false
+/instance/org.eclipse.m2e.wtp/org.eclipse.m2e.wtp.jpa.enabler.enabled=false
+
+# validation
+/instance/org.eclipse.wst.validation/suspend=true
+
+# Maven
+/instance/org.eclipse.m2e.core/eclipse.m2.downloadJavadoc=true
+/instance/org.eclipse.m2e.core/eclipse.m2.downloadSources=true
